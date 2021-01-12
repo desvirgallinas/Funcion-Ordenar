@@ -1,7 +1,2 @@
 ﻿  Funcion Ordenar.cpp
-C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Funcion Ordenar.cpp(11,27): error C2664: 'void ordenar(int &,int)': el argumento 1 no puede convertirse de 'int [5]' a 'int &'
-C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Funcion Ordenar.cpp(5,6): message : vea la declaración de 'ordenar'
-C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Funcion Ordenar.cpp(15,10): error C2143: error de sintaxis: falta ';' delante de ')'
-C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Funcion Ordenar.cpp(17,1): error C2143: error de sintaxis: falta ';' delante de '}'
-C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Funcion Ordenar.cpp(17,1): error C2143: error de sintaxis: falta ')' delante de '}'
-C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Funcion Ordenar.cpp(17,1): error C2059: error de sintaxis: '}'
+  Funcion Ordenar.vcxproj -> C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Debug\Funcion Ordenar.exe
