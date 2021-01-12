@@ -1,16 +1,3 @@
 ﻿  Funcion Ordenar.cpp
-C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Funcion Ordenar.cpp(14,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
-C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Funcion Ordenar.cpp(15,45): warning C4101: 'm': variable local sin referencia
-C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Funcion Ordenar.cpp(15,9): warning C4101: 'a': variable local sin referencia
-C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Funcion Ordenar.cpp(15,39): warning C4101: 'k': variable local sin referencia
-C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Funcion Ordenar.cpp(15,21): warning C4101: 'e': variable local sin referencia
-C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Funcion Ordenar.cpp(15,12): warning C4101: 'b': variable local sin referencia
-C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Funcion Ordenar.cpp(15,24): warning C4101: 'f': variable local sin referencia
-C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Funcion Ordenar.cpp(15,42): warning C4101: 'l': variable local sin referencia
-C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Funcion Ordenar.cpp(15,36): warning C4101: 'j': variable local sin referencia
-C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Funcion Ordenar.cpp(15,33): warning C4101: 'i': variable local sin referencia
-C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Funcion Ordenar.cpp(15,15): warning C4101: 'c': variable local sin referencia
-C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Funcion Ordenar.cpp(15,30): warning C4101: 'h': variable local sin referencia
-C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Funcion Ordenar.cpp(15,27): warning C4101: 'g': variable local sin referencia
-C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Funcion Ordenar.cpp(15,18): warning C4101: 'd': variable local sin referencia
+C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Funcion Ordenar.cpp(16,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
   Funcion Ordenar.vcxproj -> C:\Users\javic\Documents\ CARPETA BASE \Uni\FPI\Programacion\ Propios\ordenar\Funcion Ordenar\Debug\Funcion Ordenar.exe
