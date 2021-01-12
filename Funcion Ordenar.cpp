@@ -1,19 +1,27 @@
 #include <iostream>
 #include <array>
+#include <random>
+#include <time.h>
+
 using namespace std;
 
-typedef int tarray[5];
+typedef int tarray[13];
 
 void ordenar(tarray &arr1, int longitud);
 
 int main()
 {
-    int a, b, c, d, e;
-    cin >> a >> b >> c >> d >> e;
-    tarray arr1 = { a,b,c,d,e };
+    srand(time(NULL));
+    int a, b, c, d, e, f, g, h, i, j, k, l, m;
+    
+    tarray arr1;
+    for (int i = 0; i < 13; i++) {
+        arr1[i] = rand() % 100;
+    }
     int longitud = sizeof(arr1) / sizeof(*arr1);
     for (int d = 0; d < longitud; d++) {
         cout << arr1[d] << ", ";
+
     }
     cout << endl;
     ordenar(arr1, longitud);
@@ -25,45 +33,38 @@ void ordenar(tarray& arr1, int longitud) {
     for (int a = 0; a < longitud; a++) {  //Copiamos el array
         arr2[a] = arr1[a];
     }
+    for (int d = 0; d < longitud; d++) {
+        cout << arr1[d] << ", ";
+    }
 
     for (int i = 0; i > -1; i++) { 
         i %= longitud;
-        cout << "i = " << i;
-        contador1 = 0;
         for (int j = 0; j < longitud; j++) {
-            cout << "\nj = " << j << endl;
             if (arr1[i] < arr2[j]) {
                 arr1[i] = arr2[j];
                 arr1[j] = arr2[i];
-                cout << "a";
-                break;
-            }
-            for (int c = j; c < longitud; c++) {
-                if (arr1[j] < arr1[c]) {
-                    contador1++;
-                }
-                if (contador1 == longitud - j) {
-                    contador1 = longitud;
+                for (int a = 0; a < longitud; a++) {  //Copiamos el array
+                    arr2[a] = arr1[a];
                 }
             }
         }
-        if (contador1 == longitud) {
-            contador2++;
+        contador1 = 0;
+        for (int b = 0; b < longitud - 1; b ++) {
+            if (arr1[b] <= arr1[b + 1]) {
+                cout << endl << "a" << endl;
+                contador1++;
+            }
         }
-        else {
-            contador2 = 0;
+        if (contador1 == longitud - 1) {
+            for (int d = 0; d < longitud; d++) {
+                cout << arr1[d] << ", ";
+            }
+            break;
         }
         cout << endl;
         for (int d = 0; d < longitud; d++) {
-             cout << arr1[d] << ", ";
+            cout << arr1[d] << ", ";
         }
         cout << endl;
-
-        for (int a = 0; a < longitud; a++) {  //Copiamos el array
-            arr2[a] = arr1[a];
-        }
-        if (contador2 == longitud) {
-            break;
-        }
     }
 }
