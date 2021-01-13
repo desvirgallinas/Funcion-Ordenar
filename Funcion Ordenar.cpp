@@ -12,6 +12,8 @@ typedef int tarray[LONGITUD_DEL_ARRAY];
 
 void ordenar(tarray &arr1, int longitud);
 
+
+
 int main() {
     srand(time(NULL));    
     tarray arr1;
@@ -22,9 +24,9 @@ int main() {
     }
     for (int d = 0; d < longitud; d++) {
         cout << arr1[d] << ", ";
-
     }
     cout << endl;
+    system("PAUSE");
     ordenar(arr1, longitud);
 }
 
@@ -51,13 +53,13 @@ void ordenar(tarray& arr1, int longitud) {
             }
             break;
         }
+
         //2 - Imprimimos el array
         // opcional
-        cout << endl;
         for (int d = 0; d < longitud; d++) {
             cout << arr1[d] << ", ";
         }
-        cout << endl;
+
 
         //3 - Ordenamos un numero
         for (int j = 0; j < longitud; j++) {
